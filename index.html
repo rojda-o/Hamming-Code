@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamming Code Implementation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="dialog-box">
+            <h3>Hamming Code Implementation</h3>
+            <div class="dialog-content">
+                <div id="explanation">
+                    <label for="input_data">Enter Data (4, 8, 16 bits):</label> <br>
+                    <input type="text" id="input_data"> <br>
+                    <button id="calculateBtn">Calculate Hamming Code</button>
+                    <div id="result"></div>
+                    <div id="hamming_code_1"></div>
+                    <label for="error_position">Enter Error Position</label><br>
+                    <input type="text" id="error_position"><br>
+                    <button id="errorBtn">Create Error</button><br>
+                    <div id="error_result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

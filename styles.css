@@ -1,0 +1,42 @@
+#container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #47798c;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+h3 {
+    text-align: center;
+    font-family: "MV Boli";
+    font-size: 24px;
+}
+.dialog-box {
+    border-radius: 20px;
+    color: rgb(1, 2, 17);
+    background-color: #e4ced0;
+    padding: 1rem;
+    min-height: 60vh;
+    min-width: 50vh;
+}
+.dialog-content {
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #7aa9bf;
+    text-align: center;
+}
+#explanation {
+    font-family: "MV Boli";
+    font-size: 20px;
+}
+button, input {
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(220, 220, 226);
+}
